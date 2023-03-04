@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header img{
+    width: 6em;
+    height: 6em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+header{
+    display: flex;
+    height: 10em;
+    width: 100%;
+    margin-bottom:0;
+}
+nav{
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+    margin-top:2em;
+    height: 3em;
+    padding-top: 1em;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 3em;
+
+}
+nav li a{
+    text-decoration: none;
+    color:#aa3939;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/*Styling for first section*/
+.first-section{
+    height: 15em;
+    width: 100%;
+    background-size: cover;  
+}
+.first-section h2, .first-section p{
+text-align: center;
+color: black;
+font-size: 1.3em;
+}
+.head{
+    background-image: url("rback.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 30em;
+    
+}
